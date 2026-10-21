@@ -9,101 +9,102 @@
   "primary": [
     {
       "file": "logos/primary/playmos-logo-fullcolor-1024.png",
-      "bytes": 204811
+      "bytes": 205362
     },
     {
       "file": "logos/primary/playmos-logo-fullcolor-512.png",
-      "bytes": 81748
+      "bytes": 81697
     },
     {
       "file": "logos/primary/playmos-logo-fullcolor.svg",
-      "bytes": 1860
+      "bytes": 1888
     },
     {
       "file": "logos/primary/playmos-logo.png",
-      "bytes": 183531
+      "bytes": 203032
     },
     {
       "file": "logos/primary/playmos-logo.svg",
-      "bytes": 1767
+      "bytes": 1795
     }
   ],
   "alternates": [
     {
       "file": "logos/alternates/playmos-logo-dark-1024.png",
-      "bytes": 30902
+      "bytes": 29998
     },
     {
       "file": "logos/alternates/playmos-logo-dark-512.png",
-      "bytes": 13969
+      "bytes": 13566
     },
     {
       "file": "logos/alternates/playmos-logo-dark.svg",
-      "bytes": 766
+      "bytes": 794
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal-1024.png",
-      "bytes": 43190
+      "bytes": 43055
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal-512.png",
-      "bytes": 16931
+      "bytes": 16819
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal-white-1024.png",
-      "bytes": 40141
+      "bytes": 40027
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal-white-512.png",
-      "bytes": 15518
+      "bytes": 15378
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal-white.svg",
-      "bytes": 8942
+      "bytes": 8970
     },
     {
       "file": "logos/alternates/playmos-logo-horizontal.svg",
-      "bytes": 8942
+      "bytes": 8970
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only-1024.png",
-      "bytes": 23201
+      "bytes": 22361
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only-512.png",
-      "bytes": 10672
+      "bytes": 10248
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only-white-1024.png",
-      "bytes": 20253
+      "bytes": 19438
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only-white-512.png",
-      "bytes": 9266
+      "bytes": 8900
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only-white.svg",
-      "bytes": 505
+      "bytes": 533
     },
     {
       "file": "logos/alternates/playmos-logo-icon-only.svg",
-      "bytes": 505
+      "bytes": 533
     },
     {
       "file": "logos/alternates/playmos-logo-white-1024.png",
-      "bytes": 25299
+      "bytes": 24570
     },
     {
       "file": "logos/alternates/playmos-logo-white-512.png",
-      "bytes": 11268
+      "bytes": 10938
     },
     {
       "file": "logos/alternates/playmos-logo-white.svg",
-      "bytes": 766
+      "bytes": 794
     }
   ],
+  "dots_note": "All logo files use two separate button dots (circle stroke=none), approved by Boz Oct 21, 2026.",
   "variants": {
-    "playmos-logo": "Original official files copied byte-for-byte from public/brand-assets (PNG has white, non-transparent background)",
+    "playmos-logo": "Official logo from public/brand-assets, corrected per Boz on Oct 21, 2026: the website-repo file had the two button dots stroked so they merged into an '8'; dots now use stroke=none (two separate dots, as in the playmos.io nav). PNG is 1025x1025 on white like the original",
     "playmos-logo-fullcolor": "Primary logo. Official SVG with highlight clipped to the rounded corners; transparent PNG 1024/512",
     "playmos-logo-white": "All-white mark, controller knocked out. For violet or dark backgrounds",
     "playmos-logo-dark": "All-dark (#0A0C12) mark, controller knocked out. For light backgrounds / 1-color print",

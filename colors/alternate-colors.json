@@ -473,19 +473,6 @@
       "status": "verified"
     },
     {
-      "name": "Coral (Tailwind variant)",
-      "hex": "#FF5C57",
-      "rgb": [
-        255,
-        92,
-        87
-      ],
-      "role": "accent",
-      "usage": "Conflicting coral value in Tailwind config; not used by live CSS",
-      "source": "tailwind.config.ts coral",
-      "status": "verified-in-code, conflict"
-    },
-    {
       "name": "Illustration cyan",
       "hex": "#22D3EE",
       "rgb": [
@@ -562,6 +549,14 @@
       "replaced_by": "#FF5C7A",
       "origin": "Clippy charter, sampled from past X cards",
       "status": "approximate, superseded"
+    },
+    {
+      "name": "Coral (Tailwind variant)",
+      "hex": "#FF5C57",
+      "replaced_by": "#FF5C7A",
+      "origin": "tailwind.config.ts coral in playmos-labs/website",
+      "status": "superseded (Boz, Oct 21, 2026)",
+      "action": "Derek's team to update tailwind.config.ts coral to #FF5C7A"
     }
   ]
 }

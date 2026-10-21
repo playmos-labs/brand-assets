@@ -118,8 +118,9 @@
       "role": "secondary",
       "usage": "Costs, fees, required-field markers",
       "source": "app/globals.css --coral",
-      "status": "verified (conflict: tailwind.config.ts coral is #FF5C57; Boz to pick)",
-      "token": "brand.coral"
+      "status": "verified; standardized by Boz Oct 21, 2026",
+      "token": "brand.coral",
+      "note": "Supersedes #FF5C57 from tailwind.config.ts; Derek's team to update the website Tailwind config coral to #FF5C7A"
     }
   ],
   "gradients": [
