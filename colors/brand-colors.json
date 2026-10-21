@@ -1,0 +1,135 @@
+{
+  "$schema_version": "1.0",
+  "title": "Playmos primary and secondary brand colors",
+  "brand": "Playmos Labs",
+  "updated": "2026-10-21",
+  "source_repo": "github.com/playmos-labs/website (main)",
+  "status_note": "Hex values verified from website source code on 2026-10-21; final sign-off pending Boz.",
+  "rights": "Copyright (c) 2026 Playmos Labs. All rights reserved.",
+  "primary": [
+    {
+      "name": "Playmos Violet",
+      "hex": "#635BFF",
+      "rgb": [
+        99,
+        91,
+        255
+      ],
+      "role": "primary",
+      "usage": "Brand color: primary buttons, links, labels, browser theme color, wordmark accents",
+      "source": "tailwind.config.ts brand.DEFAULT/brand-500; app/globals.css --blue; app/layout.tsx themeColor",
+      "status": "verified",
+      "token": "brand.violet"
+    },
+    {
+      "name": "Playmos Night",
+      "hex": "#0A0C12",
+      "rgb": [
+        10,
+        12,
+        18
+      ],
+      "role": "primary",
+      "usage": "Default background (near-black) for site, cards and social visuals",
+      "source": "app/globals.css --bg, --dark",
+      "status": "verified",
+      "token": "brand.night"
+    },
+    {
+      "name": "White",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "role": "primary",
+      "usage": "Headlines and logo glyph on dark/violet; light-surface background",
+      "source": "app/globals.css (.btn-primary color, .dark-band .h2); app/opengraph-image.tsx background",
+      "status": "verified",
+      "token": "brand.white"
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Violet Deep",
+      "hex": "#4A3FFF",
+      "rgb": [
+        74,
+        63,
+        255
+      ],
+      "role": "secondary",
+      "usage": "Hover/pressed state, CTA gradient end",
+      "source": "tailwind.config.ts brand-600; app/globals.css --blue-d",
+      "status": "verified",
+      "token": "brand.violetDeep"
+    },
+    {
+      "name": "Violet Light",
+      "hex": "#A99FFF",
+      "rgb": [
+        169,
+        159,
+        255
+      ],
+      "role": "secondary",
+      "usage": "Logo gradient highlight; violet text/labels on dark (8.5:1 on Night)",
+      "source": "tailwind.config.ts brand-300; public/brand-assets/playmos-logo.svg",
+      "status": "verified",
+      "token": "brand.violetLight"
+    },
+    {
+      "name": "Cyan",
+      "hex": "#00D4FF",
+      "rgb": [
+        0,
+        212,
+        255
+      ],
+      "role": "secondary",
+      "usage": "Headline gradient partner (#635BFF -> #00D4FF), highlights",
+      "source": "app/globals.css --cyan; app/opengraph-image.tsx",
+      "status": "verified",
+      "token": "brand.cyan"
+    },
+    {
+      "name": "Teal",
+      "hex": "#0FB67E",
+      "rgb": [
+        15,
+        182,
+        126
+      ],
+      "role": "secondary",
+      "usage": "What the studio keeps / success / live status",
+      "source": "app/globals.css --teal",
+      "status": "verified",
+      "token": "brand.teal"
+    },
+    {
+      "name": "Coral",
+      "hex": "#FF5C7A",
+      "rgb": [
+        255,
+        92,
+        122
+      ],
+      "role": "secondary",
+      "usage": "Costs, fees, required-field markers",
+      "source": "app/globals.css --coral",
+      "status": "verified; standardized by Boz Oct 21, 2026",
+      "token": "brand.coral",
+      "note": "Supersedes #FF5C57 from tailwind.config.ts; Derek's team to update the website Tailwind config coral to #FF5C7A"
+    }
+  ],
+  "gradients": [
+    {
+      "name": "Headline gradient",
+      "css": "linear-gradient(120deg,#635BFF 0%,#00D4FF 70%)",
+      "source": "app/globals.css .hero-v2 h1 .g",
+      "status": "verified"
+    }
+  ],
+  "see_also": "alternate-colors.json for extended scales, neutrals, partner and illustration colors"
+}

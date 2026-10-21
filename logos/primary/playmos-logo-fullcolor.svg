@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="rr"><rect width="64" height="64" rx="14"/></clipPath>
+    <linearGradient id="card" gradientUnits="userSpaceOnUse" x1="14" y1="0" x2="50" y2="64">
+      <stop offset="0%" stop-color="#A99FFF"/>
+      <stop offset="28%" stop-color="#8478FF"/>
+      <stop offset="55%" stop-color="#635BFF"/>
+      <stop offset="80%" stop-color="#4A3FFF"/>
+      <stop offset="100%" stop-color="#2E25B8"/>
+    </linearGradient>
+    <radialGradient id="hl" cx="30%" cy="20%" r="58%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#card)"/>
+  <path d="M0 0 H64 V30 C64 30 50 22 32 22 C14 22 0 30 0 30 Z" fill="url(#cap)" clip-path="url(#rr)"/>
+  <rect width="64" height="64" rx="14" fill="url(#hl)"/>
+  <rect x="0.6" y="0.6" width="62.8" height="62.8" rx="13.4" fill="none" stroke="#ffffff" stroke-opacity="0.30" stroke-width="1.1"/>
+  <svg x="5" y="12.5" width="54" height="39" viewBox="0 0 28 20" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" preserveAspectRatio="xMidYMid meet">
+    <path d="M8 4 H20 C23.3 4 26 6.7 26 10 C26 13.3 23.3 16 20 16 C18.2 16 16.8 14.4 16 12 H12 C11.2 14.4 9.8 16 8 16 C4.7 16 2 13.3 2 10 C2 6.7 4.7 4 8 4 Z" fill="#ffffff" fill-opacity="0.10"/>
+    <path d="M6 10 H10 M8 8 V12"/>
+    <circle cx="20" cy="8.4" r="0.9" fill="#ffffff" stroke="none"/>
+    <circle cx="20" cy="11.6" r="0.9" fill="#ffffff" stroke="none"/>
+  </svg>
+</svg>
