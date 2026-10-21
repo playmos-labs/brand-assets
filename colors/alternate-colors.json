@@ -1,0 +1,567 @@
+{
+  "$schema_version": "1.0",
+  "title": "Playmos alternate and extended colors",
+  "brand": "Playmos Labs",
+  "updated": "2026-10-21",
+  "source_repo": "github.com/playmos-labs/website (main)",
+  "status_note": "Hex values verified from website source code on 2026-10-21; final sign-off pending Boz.",
+  "rights": "Copyright (c) 2026 Playmos Labs. All rights reserved.",
+  "note": "Not for primary brand expression. Use brand-colors.json first; use these for UI states, neutrals, data viz and illustrations.",
+  "violet_scale": [
+    {
+      "name": "Violet 50",
+      "hex": "#F1F0FF",
+      "rgb": [
+        241,
+        240,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.50",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 100",
+      "hex": "#E5E2FF",
+      "rgb": [
+        229,
+        226,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.100",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 200",
+      "hex": "#CFC9FF",
+      "rgb": [
+        207,
+        201,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.200",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 300",
+      "hex": "#A99FFF",
+      "rgb": [
+        169,
+        159,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.300",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 400",
+      "hex": "#8478FF",
+      "rgb": [
+        132,
+        120,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.400",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 500",
+      "hex": "#635BFF",
+      "rgb": [
+        99,
+        91,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.500",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 600",
+      "hex": "#4A3FFF",
+      "rgb": [
+        74,
+        63,
+        255
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.600",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 700",
+      "hex": "#3A2FE5",
+      "rgb": [
+        58,
+        47,
+        229
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.700",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 800",
+      "hex": "#2E25B8",
+      "rgb": [
+        46,
+        37,
+        184
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.800",
+      "status": "verified"
+    },
+    {
+      "name": "Violet 900",
+      "hex": "#1F1980",
+      "rgb": [
+        31,
+        25,
+        128
+      ],
+      "role": "extended",
+      "usage": "Tailwind brand scale",
+      "source": "tailwind.config.ts brand.900",
+      "status": "verified"
+    }
+  ],
+  "logo_gradient": {
+    "stops": [
+      {
+        "offset": "0%",
+        "hex": "#A99FFF"
+      },
+      {
+        "offset": "28%",
+        "hex": "#8478FF"
+      },
+      {
+        "offset": "55%",
+        "hex": "#635BFF"
+      },
+      {
+        "offset": "80%",
+        "hex": "#4A3FFF"
+      },
+      {
+        "offset": "100%",
+        "hex": "#2E25B8"
+      }
+    ],
+    "angle_css": "140deg",
+    "source": "public/brand-assets/playmos-logo.svg; app/globals.css .logo .mk",
+    "usage": "Reproduce only via the logo files; do not rebuild the mark."
+  },
+  "neutrals_dark_ui": [
+    {
+      "name": "Surface",
+      "hex": "#11151E",
+      "rgb": [
+        17,
+        21,
+        30
+      ],
+      "role": "neutral",
+      "usage": "Cards, panels on dark",
+      "source": "app/globals.css --bg2, --dark2",
+      "status": "verified"
+    },
+    {
+      "name": "Text primary (dark UI)",
+      "hex": "#EDF1FA",
+      "rgb": [
+        237,
+        241,
+        250
+      ],
+      "role": "neutral",
+      "usage": "Body text on dark",
+      "source": "app/globals.css --ink",
+      "status": "verified"
+    },
+    {
+      "name": "Text secondary (dark UI)",
+      "hex": "#AEB6C8",
+      "rgb": [
+        174,
+        182,
+        200
+      ],
+      "role": "neutral",
+      "usage": "Sub-copy",
+      "source": "app/globals.css --ink2",
+      "status": "verified"
+    },
+    {
+      "name": "Text tertiary (dark UI)",
+      "hex": "#97A0B4",
+      "rgb": [
+        151,
+        160,
+        180
+      ],
+      "role": "neutral",
+      "usage": "Meta text",
+      "source": "app/globals.css --ink3",
+      "status": "verified"
+    },
+    {
+      "name": "Line",
+      "hex": "#1E2740",
+      "rgb": [
+        30,
+        39,
+        64
+      ],
+      "role": "neutral",
+      "usage": "Dividers",
+      "source": "app/globals.css --line",
+      "status": "verified"
+    },
+    {
+      "name": "Line strong",
+      "hex": "#2A3350",
+      "rgb": [
+        42,
+        51,
+        80
+      ],
+      "role": "neutral",
+      "usage": "Input/button borders",
+      "source": "app/globals.css --line2",
+      "status": "verified"
+    },
+    {
+      "name": "Violet soft",
+      "hex": "#EEEDFE",
+      "rgb": [
+        238,
+        237,
+        254
+      ],
+      "role": "neutral",
+      "usage": "Focus ring / selected chip tint",
+      "source": "app/globals.css --blue-soft",
+      "status": "verified"
+    },
+    {
+      "name": "Teal soft",
+      "hex": "#E3F7EF",
+      "rgb": [
+        227,
+        247,
+        239
+      ],
+      "role": "neutral",
+      "usage": "Success tint",
+      "source": "app/globals.css --teal-soft",
+      "status": "verified"
+    }
+  ],
+  "neutrals_light_ui": [
+    {
+      "name": "Text on light",
+      "hex": "#0B0D12",
+      "rgb": [
+        11,
+        13,
+        18
+      ],
+      "role": "neutral",
+      "usage": "Wordmark/headlines on white",
+      "source": "app/opengraph-image.tsx",
+      "status": "verified"
+    },
+    {
+      "name": "Body on light",
+      "hex": "#46506A",
+      "rgb": [
+        70,
+        80,
+        106
+      ],
+      "role": "neutral",
+      "usage": "Body text on white",
+      "source": "app/opengraph-image.tsx",
+      "status": "verified"
+    },
+    {
+      "name": "Meta on light",
+      "hex": "#8A93A6",
+      "rgb": [
+        138,
+        147,
+        166
+      ],
+      "role": "neutral",
+      "usage": "Large/meta text only on white (3.1:1)",
+      "source": "app/opengraph-image.tsx",
+      "status": "verified"
+    }
+  ],
+  "ink_scale": [
+    {
+      "name": "Ink 50",
+      "hex": "#F6F8FB",
+      "rgb": [
+        246,
+        248,
+        251
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.50",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 100",
+      "hex": "#EEF2F8",
+      "rgb": [
+        238,
+        242,
+        248
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.100",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 200",
+      "hex": "#DCE3EE",
+      "rgb": [
+        220,
+        227,
+        238
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.200",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 300",
+      "hex": "#B7C2D4",
+      "rgb": [
+        183,
+        194,
+        212
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.300",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 400",
+      "hex": "#7E8AA0",
+      "rgb": [
+        126,
+        138,
+        160
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.400",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 500",
+      "hex": "#4F5A72",
+      "rgb": [
+        79,
+        90,
+        114
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.500",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 600",
+      "hex": "#2E3851",
+      "rgb": [
+        46,
+        56,
+        81
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.600",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 700",
+      "hex": "#1A2440",
+      "rgb": [
+        26,
+        36,
+        64
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.700",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 800",
+      "hex": "#0F1832",
+      "rgb": [
+        15,
+        24,
+        50
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.800",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 900",
+      "hex": "#0A1224",
+      "rgb": [
+        10,
+        18,
+        36
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.900",
+      "status": "verified"
+    },
+    {
+      "name": "Ink 950",
+      "hex": "#06091A",
+      "rgb": [
+        6,
+        9,
+        26
+      ],
+      "role": "extended",
+      "usage": "Tailwind navy scale (code card, legacy navy)",
+      "source": "tailwind.config.ts ink.950",
+      "status": "verified"
+    }
+  ],
+  "accents": [
+    {
+      "name": "Amber",
+      "hex": "#F5A623",
+      "rgb": [
+        245,
+        166,
+        35
+      ],
+      "role": "accent",
+      "usage": "Secondary accent / warnings",
+      "source": "app/globals.css --amber",
+      "status": "verified"
+    },
+    {
+      "name": "Coral (Tailwind variant)",
+      "hex": "#FF5C57",
+      "rgb": [
+        255,
+        92,
+        87
+      ],
+      "role": "accent",
+      "usage": "Conflicting coral value in Tailwind config; not used by live CSS",
+      "source": "tailwind.config.ts coral",
+      "status": "verified-in-code, conflict"
+    },
+    {
+      "name": "Illustration cyan",
+      "hex": "#22D3EE",
+      "rgb": [
+        34,
+        211,
+        238
+      ],
+      "role": "illustration",
+      "usage": "Map illustration only (Tailwind cyan-400)",
+      "source": "app/page.tsx",
+      "status": "verified"
+    },
+    {
+      "name": "Map label cyan",
+      "hex": "#67E8F9",
+      "rgb": [
+        103,
+        232,
+        249
+      ],
+      "role": "illustration",
+      "usage": "Map city labels",
+      "source": "app/globals.css .city-fiat",
+      "status": "verified"
+    }
+  ],
+  "partner_colors": [
+    {
+      "name": "Base Blue",
+      "hex": "#0052FF",
+      "rgb": [
+        0,
+        82,
+        255
+      ],
+      "role": "partner",
+      "usage": "Only for 'Built on Base'/'Live on Base' references. Never a Playmos accent.",
+      "source": "app/globals.css .base-badge; app/opengraph-image.tsx",
+      "status": "verified"
+    }
+  ],
+  "superseded_approximations": [
+    {
+      "name": "Navy",
+      "approx_hex": "#0E1431",
+      "replaced_by": "#0F1832 (ink-800) or #0A0C12",
+      "origin": "Clippy charter, sampled from past X cards",
+      "status": "approximate, superseded"
+    },
+    {
+      "name": "Near-black",
+      "approx_hex": "#090A0F",
+      "replaced_by": "#0A0C12",
+      "origin": "Clippy charter, sampled from past X cards",
+      "status": "approximate, superseded"
+    },
+    {
+      "name": "Violet",
+      "approx_hex": "#6050F0",
+      "replaced_by": "#635BFF",
+      "origin": "Clippy charter, sampled from past X cards",
+      "status": "approximate, superseded"
+    },
+    {
+      "name": "Green",
+      "approx_hex": "#20C080",
+      "replaced_by": "#0FB67E",
+      "origin": "Clippy charter, sampled from past X cards",
+      "status": "approximate, superseded"
+    },
+    {
+      "name": "Coral",
+      "approx_hex": "#F07050",
+      "replaced_by": "#FF5C7A",
+      "origin": "Clippy charter, sampled from past X cards",
+      "status": "approximate, superseded"
+    }
+  ]
+}

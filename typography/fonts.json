@@ -1,0 +1,120 @@
+{
+  "$schema_version": "1.0",
+  "title": "Playmos typography",
+  "brand": "Playmos Labs",
+  "updated": "2026-10-21",
+  "source_repo": "github.com/playmos-labs/website (main)",
+  "status_note": "Hex values verified from website source code on 2026-10-21; final sign-off pending Boz.",
+  "rights": "Copyright (c) 2026 Playmos Labs. All rights reserved.",
+  "families": [
+    {
+      "name": "Geist Sans",
+      "role": "primary",
+      "usage": "All UI, headlines, the 'Playmos' wordmark",
+      "css_stack": "var(--font-geist-sans), \"Geist\", system-ui, -apple-system, sans-serif",
+      "weights_used": [
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "weights_available": "100-900 (variable)",
+      "loaded_via": "npm 'geist' (^1.7.2) with next/font: app/layout.tsx imports GeistSans from 'geist/font/sans'",
+      "source_files": [
+        "app/layout.tsx",
+        "app/globals.css --sans",
+        "app/_fonts/Geist-{Regular,SemiBold,Bold}.ttf (OG image)"
+      ],
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdx": "OFL-1.1",
+        "verified_from": "LICENSE.txt in npm package geist@1.8.1",
+        "copyright": "Copyright (c) 2023 Vercel, in collaboration with basement.studio",
+        "file": "fonts/OFL-LICENSE.txt"
+      },
+      "files": [
+        "fonts/Geist-Variable.ttf"
+      ],
+      "upstream": "https://github.com/vercel/geist-font"
+    },
+    {
+      "name": "Geist Mono",
+      "role": "secondary",
+      "usage": "Code, ledger numbers, filenames",
+      "css_stack": "var(--font-geist-mono), \"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
+      "weights_used": [
+        400,
+        500,
+        600
+      ],
+      "weights_available": "100-900 (variable)",
+      "loaded_via": "npm 'geist' with next/font: 'geist/font/mono'",
+      "source_files": [
+        "app/layout.tsx",
+        "app/globals.css --mono"
+      ],
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdx": "OFL-1.1",
+        "file": "fonts/OFL-LICENSE.txt"
+      },
+      "files": [
+        "fonts/GeistMono-Variable.ttf"
+      ]
+    }
+  ],
+  "wordmark": {
+    "text": "Playmos",
+    "family": "Geist Sans",
+    "weight": 700,
+    "letter_spacing": "-0.035em",
+    "source": "app/globals.css .logo .wm",
+    "note": "Use the outlined lockup files in logos/alternates; do not retype."
+  },
+  "type_scale_web": [
+    {
+      "element": "hero h1",
+      "size_px": 48,
+      "weight": 600,
+      "letter_spacing": "-0.035em",
+      "mobile_px": [
+        36,
+        28
+      ]
+    },
+    {
+      "element": "section h2",
+      "size_px": 30,
+      "weight": 800
+    },
+    {
+      "element": "eyebrow label",
+      "size_px": 12.5,
+      "weight": 700,
+      "transform": "uppercase",
+      "letter_spacing": "0.08em",
+      "color": "#635BFF"
+    },
+    {
+      "element": "body/lead",
+      "size_px": [
+        16,
+        17
+      ],
+      "weight": 400
+    },
+    {
+      "element": "button",
+      "size_px": 14,
+      "weight": 600,
+      "radius_px": 11
+    }
+  ],
+  "not_used": [
+    "Google Fonts (none loaded; CSP)",
+    "CSS @font-face",
+    "Inter: tailwind.config.ts references var(--font-inter) but it is never defined (dev cleanup)"
+  ]
+}

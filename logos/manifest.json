@@ -1,0 +1,118 @@
+{
+  "$schema_version": "1.0",
+  "title": "Playmos logo manifest",
+  "brand": "Playmos Labs",
+  "updated": "2026-10-21",
+  "source_repo": "github.com/playmos-labs/website (main)",
+  "status_note": "Hex values verified from website source code on 2026-10-21; final sign-off pending Boz.",
+  "rights": "Copyright (c) 2026 Playmos Labs. All rights reserved.",
+  "primary": [
+    {
+      "file": "logos/primary/playmos-logo-fullcolor-1024.png",
+      "bytes": 204811
+    },
+    {
+      "file": "logos/primary/playmos-logo-fullcolor-512.png",
+      "bytes": 81748
+    },
+    {
+      "file": "logos/primary/playmos-logo-fullcolor.svg",
+      "bytes": 1860
+    },
+    {
+      "file": "logos/primary/playmos-logo.png",
+      "bytes": 183531
+    },
+    {
+      "file": "logos/primary/playmos-logo.svg",
+      "bytes": 1767
+    }
+  ],
+  "alternates": [
+    {
+      "file": "logos/alternates/playmos-logo-dark-1024.png",
+      "bytes": 30902
+    },
+    {
+      "file": "logos/alternates/playmos-logo-dark-512.png",
+      "bytes": 13969
+    },
+    {
+      "file": "logos/alternates/playmos-logo-dark.svg",
+      "bytes": 766
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal-1024.png",
+      "bytes": 43190
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal-512.png",
+      "bytes": 16931
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal-white-1024.png",
+      "bytes": 40141
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal-white-512.png",
+      "bytes": 15518
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal-white.svg",
+      "bytes": 8942
+    },
+    {
+      "file": "logos/alternates/playmos-logo-horizontal.svg",
+      "bytes": 8942
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only-1024.png",
+      "bytes": 23201
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only-512.png",
+      "bytes": 10672
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only-white-1024.png",
+      "bytes": 20253
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only-white-512.png",
+      "bytes": 9266
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only-white.svg",
+      "bytes": 505
+    },
+    {
+      "file": "logos/alternates/playmos-logo-icon-only.svg",
+      "bytes": 505
+    },
+    {
+      "file": "logos/alternates/playmos-logo-white-1024.png",
+      "bytes": 25299
+    },
+    {
+      "file": "logos/alternates/playmos-logo-white-512.png",
+      "bytes": 11268
+    },
+    {
+      "file": "logos/alternates/playmos-logo-white.svg",
+      "bytes": 766
+    }
+  ],
+  "variants": {
+    "playmos-logo": "Original official files copied byte-for-byte from public/brand-assets (PNG has white, non-transparent background)",
+    "playmos-logo-fullcolor": "Primary logo. Official SVG with highlight clipped to the rounded corners; transparent PNG 1024/512",
+    "playmos-logo-white": "All-white mark, controller knocked out. For violet or dark backgrounds",
+    "playmos-logo-dark": "All-dark (#0A0C12) mark, controller knocked out. For light backgrounds / 1-color print",
+    "playmos-logo-icon-only": "Controller glyph without the rounded square, violet #635BFF",
+    "playmos-logo-icon-only-white": "Controller glyph, white",
+    "playmos-logo-horizontal": "Mark + outlined 'Playmos' wordmark (Geist Bold), dark text #0B0D12, for light backgrounds",
+    "playmos-logo-horizontal-white": "Mark + wordmark, white text, for dark backgrounds"
+  },
+  "not_available": [
+    "stacked lockup"
+  ]
+}
